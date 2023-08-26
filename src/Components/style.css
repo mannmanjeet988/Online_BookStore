@@ -14,10 +14,11 @@
     padding:1.2rem;
     display: flex;
     flex-wrap: wrap;
-    gap:1.5rem;
+    gap:1.6rem;
 }
 
 #book-info{
+    background-color: rgba(137, 43, 226, 0.514) !important;
     display: flex;
     column-gap:10px;
     /* justify-content: space-between; */
@@ -26,14 +27,24 @@
     width:18%;
 }
 
+.left-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .right-container{
-    /* background-color: rgba(137, 43, 226, 0.514) !important; */
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap:10px;
 }
+
+/* .title{
+    background-color: rgba(137, 43, 226, 0.514) !important;
+} */
 
 button{
     border:1px solid white;

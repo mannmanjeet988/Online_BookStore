@@ -15,7 +15,7 @@ const BooksGallery = ({ books ,setSelectedBook}) => {
                 return (
                     <div id="book-info" key={book.id || Math.random()} onClick={setSelectedBook(book)} >
                         <div className="left-container">
-                            {imageUrl && <img src={imageUrl} alt="bookname" />}
+                            {imageUrl ? <img src={imageUrl} alt="bookname" /> : "OOPS! Image Not Available"}
                         </div>
                         <div className="right-container">
                             <div className="title">
